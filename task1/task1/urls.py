@@ -19,5 +19,5 @@ from .views import SimpleAPIView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', SimpleAPIView.as_view(), name='simple')
+    path('api', SimpleAPIView.as_view(), name='simple')
 ]
