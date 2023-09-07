@@ -14,7 +14,7 @@ class SimpleAPIView(APIView):
             'current_day' : current_day,
             'utc_time' : utc_date.strftime('%Y-%m-%dT%H:%M:%SZ'),
             'track' : track,
-            'github_file_url' : 'https://github.com/Constantine1824/zuriHNGXtask1/task1/task1/views.py',
+            'github_file_url' : 'https://github.com/Constantine1824/zuriHNGXtask1/blob/main/task1/task1/views.py',
             'github_repo_url' : 'https://github.com/Constantine1824/zuriHNGXtask1',
             'status_code' : 200
         }
